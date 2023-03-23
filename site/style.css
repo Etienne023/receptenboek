@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.vakje {
+    background-color: blueviolet;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+.tekst {
+    margin: 15px;
+}
+
+.plaatjes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.achtergrond_plaatje img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.plaatjes img {
+    margin: 15px;
+    height: 152px;
+    width: 272px;
+    transition: transform .2s;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.plaatjes img:hover {
+    transform: scale(1.5);
+}
+
+h2 {
+    font-style: italic;
+    letter-spacing: .16667rem;
+    font-size: 1.33333rem;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
