@@ -38,7 +38,8 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
         <p>recepten</p>
     </div>
     <div class="vakje">
-        <h2>recepten</h2>
+        <h2 class="naam">recepten</h2>
+        <hr>
         <div class="plaatjes">
             <?php foreach ($all_recepten as $recept) : ?>
                 <div class="recept">

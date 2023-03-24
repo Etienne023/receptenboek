@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="nav.css">
 <header>
     <div class="logo"><img src="images/images.png"></div>
+    <h1>receptenboek</h1>
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
