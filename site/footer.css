@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+li{
+    line-height: 2em;
+    list-style-type: none
+}
+h3{
+
+}
+footer{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    background-color:rgb(223, 221, 221);
+}
+.footer1 h3{
+flex-direction: row;
+}
+.footer2 {
+padding-left: 1cm;
+}
+.footer3{
+    padding-left: 1cm;
+}
+.footer4{
+    padding-left: 1cm;
+}
+.footer5{
+    padding-left: 1cm;
+}

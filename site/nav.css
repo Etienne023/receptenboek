@@ -1,7 +1,6 @@
 header{
   display: flex;
     align-items: center;
-    justify-content: space-between;
     width: 100%;
     max-width: var(--block-width);
     margin-left: auto;
@@ -21,8 +20,8 @@ ul {
     flex-direction: row;
   }
   .logo{
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 12%;
+    padding-right: 0%;
     float: left;
   }
   
@@ -30,14 +29,14 @@ ul {
     float:left;
   }
 
-  header li a {
+li a {
     display: flex;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 56px 170px 0px;
+    padding: 0px 30px;
     text-decoration: none;
+    align-items: center;
     
-
   }
   
  

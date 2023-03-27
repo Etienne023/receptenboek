@@ -2,7 +2,6 @@
 
 require "database.php";
 
-
 //de sql query
 $sql = "SELECT * FROM recepten";
 
@@ -34,25 +33,32 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 <body>
     <?php include("nav.php") ?>
     <div class="achtergrond_plaatje">
-        <img src="images/28116-6235-mx.jpg" alt="dit plaatje kan niet geladen worden ">
-        <p>recepten</p>
+        <img src="images/28116-6235-mx.jpg">
+        <div class="tekst_plaatje">
+            <h1>receptenBoek</h1>
+        </div>
     </div>
+    <h2 class="naam">recepten</h2>
     <div class="vakje">
-        <h2 class="naam">recepten</h2>
-        <hr>
+
         <div class="plaatjes">
             <?php foreach ($all_recepten as $recept) : ?>
                 <div class="recept">
-                    <img src="images/<?php echo $recept["plaatje"] ?>">
-                    <div class="tekst">
-                        <h3><?php echo $recept["Naam Recept"] ?></h3>
+               <a href="users_update.php?id=<?php echo $recept['id'] ?>">Update</a><img src="images/<?php echo $recept["plaatje"] ?>">
+                        <div class="tekst">
+                            <h3><?php echo $recept["Naam Recept"] ?></h3>
+                            
 
-                    </div>
+                        </div>
                 </div>
             <?php endforeach ?>
         </div>
 
     </div>
+    <br>
+    <footer>
+        <?php include("footer.php") ?>
+    </footer>
 </body>
 
 </html>
