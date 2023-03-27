@@ -6,12 +6,16 @@ li{
     line-height: 2em;
     list-style-type: none
 }
-
+ul{
+    background-color:rgb(223, 221, 221);
+}
+.container{
+    background-color:rgb(223, 221, 221);
+}
 footer{
     display: flex;
     width: 80%;
     margin: 0 auto;
-    background-color:rgb(223, 221, 221);
 }
 .footer1 h3{
 flex-direction: row;

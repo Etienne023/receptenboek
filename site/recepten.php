@@ -56,9 +56,9 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
     </div>
     <br>
-    <footer>
+
         <?php include("footer.php") ?>
-    </footer>
+
 </body>
 
 </html>
