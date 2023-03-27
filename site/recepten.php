@@ -43,14 +43,12 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
         <div class="plaatjes">
             <?php foreach ($all_recepten as $recept) : ?>
-                <div class="recept">
-               <a href="users_update.php?id=<?php echo $recept['id'] ?>">Update</a><img src="images/<?php echo $recept["plaatje"] ?>">
-                        <div class="tekst">
-                            <h3><?php echo $recept["Naam Recept"] ?></h3>
-                            
-
-                        </div>
-                </div>
+                <a href="users_update.php?id=<?php echo $recept['id'] ?>" class="recept">
+              
+                    <div class="tekt">
+                        <h3><?php echo $recept["Naam Recept"] ?></h3>
+                    </div>
+                </a>
             <?php endforeach ?>
         </div>
 

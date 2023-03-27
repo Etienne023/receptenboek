@@ -14,7 +14,7 @@
             </ul>
         </div>
 
-        <div class="footer2">
+        <div class="footer1">
             <h3>keukens</h3>
             <ul>
                 <li>Australishe</li>
@@ -22,7 +22,7 @@
         </div>
 
 
-        <div class="footer3">
+        <div class="footer1">
             <h3>ingrediënten</h3>
             <ul>
                 <li>krokodil</li>
@@ -31,7 +31,7 @@
             </ul>
         </div>
 
-        <div class="footer4">
+        <div class="footer1">
             <h3>over</h3>
             <ul>
                 <li>school: NovaCollege</li>
@@ -39,7 +39,7 @@
             </ul>
         </div>
 
-        <div class="footer5">
+        <div class="footer1">
             <h3>contact</h3>
             <ul>
                 <li>email: 189637@novacollege.nl</li>
