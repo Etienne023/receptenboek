@@ -6,9 +6,7 @@ li{
     line-height: 2em;
     list-style-type: none
 }
-h3{
 
-}
 footer{
     display: flex;
     width: 80%;
@@ -17,16 +15,29 @@ footer{
 }
 .footer1 h3{
 flex-direction: row;
-}
-.footer2 {
 padding-left: 1cm;
+font-family: Arial, Helvetica, sans-serif;
+color:rgb(159, 159, 159);
 }
-.footer3{
-    padding-left: 1cm;
+.footer2 h3 {
+padding-left: 1cm;
+font-family: Arial, Helvetica, sans-serif;
+color:rgb(159, 159, 159);
+
 }
-.footer4{
+.footer3 h3 {
     padding-left: 1cm;
+    font-family: Arial, Helvetica, sans-serif;
+color:rgb(159, 159, 159);
 }
-.footer5{
+
+.footer4 h3{
     padding-left: 1cm;
+    font-family: Arial, Helvetica, sans-serif;
+color:rgb(159, 159, 159);
+}
+.footer5 h3{
+    padding-left: 1cm;
+    font-family: Arial, Helvetica, sans-serif;
+color:rgb(159, 159, 159);
 }
