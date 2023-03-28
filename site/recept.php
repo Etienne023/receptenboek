@@ -24,16 +24,16 @@ $recept = mysqli_fetch_assoc($result);
 
 <body>
     <?php include("nav.php") ?>
-    <h3 class="title"><?php echo $recept["title"] ?></h3>
+    <h1 class="title"><?php echo $recept["title"] ?></h1>
     <div class="informatie">
 
         <div class="benodigheden">
             <ul>
-                <h2>portie grootte</h2><li><?php echo $recept["Portie groten"] ?></li>
-                <li><?php echo $recept["Bereidingduur"] ?></li>
-                <li><?php echo $recept["Bereiding wijzen"] ?></li>
-                <li><?php echo $recept["Moeilijkheid graad"] ?></li>
-                <li><?php echo $recept["menugang"] ?></li>
+                <h2>portie grootte</h2><li><?php echo $recept["Portie_groten"] ?></li>
+                <h2>bereidingsduur</h2><li><?php echo $recept["Bereidingduur"] ?></li>
+                <h2>bereiding wijzen</h2><li><?php echo $recept["Bereiding_wijzen"] ?></li>
+                <h2>moeilijkheid graad</h2><li><?php echo $recept["Moeilijkheid_graad"] ?></li>
+                <h2>menugang</h2><li><?php echo $recept["menugang"] ?></li>
             </ul>
         </div>
 

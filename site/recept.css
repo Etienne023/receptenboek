@@ -2,8 +2,7 @@
 display: flex;
 }
 .benodigheden{
-    height: 2000px;
-    width: 500px;
+    height: 600px;
 }
 .foto{
 
@@ -13,7 +12,7 @@ flex-direction: row;
 .beschrijving{
     height: 755px;
     width: 500px;
-    background-color: antiquewhite;
+    background-color: rgb(255, 145, 0);
 }
 .foto img{
     height: 500px;
@@ -22,7 +21,7 @@ flex-direction: row;
 li{
     font-family: Arial, Helvetica, sans-serif;
 }
-.title h3{
+h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
