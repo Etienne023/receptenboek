@@ -1,0 +1,28 @@
+.informatie{
+display: flex;
+}
+.benodigheden{
+    height: 2000px;
+    width: 500px;
+}
+.foto{
+
+display: flex;
+flex-direction: row;
+}
+.beschrijving{
+    height: 755px;
+    width: 500px;
+    background-color: antiquewhite;
+}
+.foto img{
+    height: 500px;
+    width: 755px;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
