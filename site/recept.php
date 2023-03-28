@@ -28,24 +28,29 @@ $recept = mysqli_fetch_assoc($result);
     <div class="informatie">
 
         <div class="benodigheden">
-            <ul>
-                <h2>portie grootte</h2><li><?php echo $recept["Portie_groten"] ?></li>
-                <h2>bereidingsduur</h2><li><?php echo $recept["Bereidingduur"] ?></li>
-                <h2>bereiding wijzen</h2><li><?php echo $recept["Bereiding_wijzen"] ?></li>
-                <h2>moeilijkheid graad</h2><li><?php echo $recept["Moeilijkheid_graad"] ?></li>
-                <h2>menugang</h2><li><?php echo $recept["menugang"] ?></li>
-            </ul>
+            <ol>
+                <h2>portie grootte</h2>
+                <li><?php echo $recept["Portie_groten"] ?></li>
+                <h2>bereidingsduur</h2>
+                <li><?php echo $recept["Bereidingduur"] ?></li>
+                <h2>bereiding wijzen</h2>
+                <li><?php echo $recept["Bereiding_wijzen"] ?></li>
+                <h2>moeilijkheid graad</h2>
+                <li><?php echo $recept["Moeilijkheid_graad"] ?></li>
+                <h2>menugang</h2>
+                <li><?php echo $recept["menugang"] ?></li>
+            </ol>
         </div>
 
         <div class="foto">
             <img src="images/<?php echo $recept["foto"] ?>">
+            <div class="beschrijving">
+                <h2>beschrijving</h2>
+                <?php echo $recept["beschrijving"] ?>
+            </div>
         </div>
     </div>
-    <div class="beschrijving">
-
-    </div>
-
-
+    <?php include("footer.php") ?>
 </body>
 
 </html>
