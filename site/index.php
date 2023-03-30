@@ -19,11 +19,12 @@ $result = mysqli_query($conn, $sql);
 $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 ?>
+
+<body class="achtergrond">
+
+
 <?php include("header.php") ?>
 <?php include("nav.php") ?>
-
-
-
 
 </body>
 
