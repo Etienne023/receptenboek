@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vakje {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 6px 4px;
+}
+
+.tekst_plaatje h1 {
+    color: rgb(255, 255, 255);
+    font-family: Raleway, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 420px;
+    left: 70px;
+
+
+}
+
+.recept {
+    margin: 0;
+    padding: 0;
+}
+
+.plaatjes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.achtergrond_plaatje img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.plaatjes img {
+    margin-right: 50px;
+    height: 152px;
+    width: 272px;
+    transition: transform .2s;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.plaatjes img:hover {
+    transform: scale(1.5);
+}
+
+h2 {
+    font-style: Helvetica;
+    letter-spacing: .16667rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Raleway, Helvetica, sans-serif;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-family: Raleway, Helvetica, sans-serif;
+}
+
+.naam {
+    text-align: center;
+}
+
+hr {
+    display: block;
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+/*
+recept css
+*/
+a {
+    text-decoration: none;
+}
+.informatie {
+    display: flex;
+}
+
+.benodigheden {
+    height: 600px;
+    width: 500px;
+    background-color: white;
+}
+
+
+.beschrijving {
+    height: 600px;
+    width: 600px;
+}
+
+.foto img {
+    height: 500px;
+    width: 755px;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

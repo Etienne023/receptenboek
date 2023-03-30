@@ -31,6 +31,7 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 </head>
 
 <body>
+<?php include("header.php") ?>
     <?php include("nav.php") ?>
     <div class="achtergrond_plaatje">
         <img src="images/28116-6235-mx.jpg">
