@@ -38,25 +38,62 @@ $makkelijkste = mysqli_fetch_assoc($result);
 
 <body class="achtergrondd">
   <div class="special">
-    
-<div class="langsteduur">
-  <h3>Het recept dat het langste duurt om te maken</h3>
-  <img src="images/<?php echo $langsteDuur["foto"] ?>">
-  <?php echo $langsteDuur["title"]?> 
-  
-  <?php echo $langsteDuur["beschrijving"]?> 
-  <?php echo $langsteDuur["Bereidingduur"]?>
-</div>
+
+    <?php echo $langsteDuur["title"] ?>
+    <div class="langsteduur">
+
+      <h3>Het recept dat het langste duurt om te maken</h3>
+
+      <img src="images/<?php echo $langsteDuur["foto"] ?>">
+
+      <div>
+        <h4>beschrijving </h4>
+        <?php echo $langsteDuur["beschrijving"] ?>
+      </div>
+      <div>
+        <h4>hoe lang het duurt om te maken(in minuten)</h4>
+        <?php echo $langsteDuur["Bereidingduur"] ?>
+      </div>
+
+    </div>
 
 
-<div class="makkelijkst">
+    <?php echo $langsteDuur["title"] ?>
+    <div class="makkelijkst">
 
-</div>
-<div class="ingredienten">
+      <h3>Het recept dat het langste duurt om te maken</h3>
 
-</div>
+      <img src="images/<?php echo $langsteDuur["foto"] ?>">
 
-</div>
+      <div>
+        <h4>beschrijving </h4>
+        <?php echo $langsteDuur["beschrijving"] ?>
+      </div>
+      <div>
+        <h4>hoe lang het duurt om te maken(in minuten)</h4>
+        <?php echo $langsteDuur["Bereidingduur"] ?>
+      </div>
+
+    </div>
+
+
+    <?php echo $langsteDuur["title"] ?>
+    <div class="ingredienten">
+
+      <h3>Het recept dat het langste duurt om te maken</h3>
+
+      <img src="images/<?php echo $langsteDuur["foto"] ?>">
+
+      <div>
+        <h4>beschrijving </h4>
+        <?php echo $langsteDuur["beschrijving"] ?>
+      </div>
+      <div>
+        <h4>hoe lang het duurt om te maken(in minuten)</h4>
+        <?php echo $langsteDuur["Bereidingduur"] ?>
+      </div>
+
+    </div>
 </body>
 
 </html>

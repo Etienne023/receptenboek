@@ -7,9 +7,23 @@ table, th, td {
   .achtergrondd {
     background-image: url('../images/a.jpg');
     background-attachment: fixed;
-    background: c;
     background-size: 100% 100%;
 }
-.langsteduur img{
-
+.special img{
+  height: 152px;
+  width: 272px;
+  display: flex;
+  flex-direction: column;
+}
+.langsteduur{
+display: flex;
+align-items: center
+}
+.makkelijkst{
+  display: flex;
+  align-items: center
+}
+.ingredienten{
+display: flex;
+align-items: center
 }
