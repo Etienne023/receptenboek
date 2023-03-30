@@ -4,3 +4,12 @@ table, th, td {
   table{
     width: 100%;
   }
+  .achtergrondd {
+    background-image: url('../images/a.jpg');
+    background-attachment: fixed;
+    background: c;
+    background-size: 100% 100%;
+}
+.langsteduur img{
+
+}

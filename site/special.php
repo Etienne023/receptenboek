@@ -33,14 +33,30 @@ $makkelijkste = mysqli_fetch_assoc($result);
   <title>Document</title>
   <link rel="stylesheet" href="special.css">
 </head>
+<?php include("header.php") ?>
+<?php include("nav.php") ?>
 
-<body>
-
-  <h1>Het recept dat het langste duurt om te maken</h1>
+<body class="achtergrondd">
+  <div class="special">
+    
+<div class="langsteduur">
+  <h3>Het recept dat het langste duurt om te maken</h3>
+  <img src="images/<?php echo $langsteDuur["foto"] ?>">
   <?php echo $langsteDuur["title"]?> 
+  
   <?php echo $langsteDuur["beschrijving"]?> 
   <?php echo $langsteDuur["Bereidingduur"]?>
+</div>
 
+
+<div class="makkelijkst">
+
+</div>
+<div class="ingredienten">
+
+</div>
+
+</div>
 </body>
 
 </html>

@@ -1,6 +1,13 @@
-.achtergrond{
+.achtergrond {
     background-image: url('../images/australie.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+}
+
+.welkom h1 {
+    padding-top: 8cm;
+    color: white;
+    font-size: -webkit-xxx-large;
+    text-align: center;
 }
