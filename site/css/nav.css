@@ -11,12 +11,13 @@ header{
     top: 0;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #ffffff;
+    display: flex;
     flex-direction: row;
   }
   .logo{
@@ -26,7 +27,7 @@ ul {
   }
   
   .navbar li {
-    float:left;
+    flex-direction: row;
   }
 
 li a {
@@ -37,6 +38,7 @@ li a {
     text-decoration: none;
     align-items: center;
     background-color: white;
+    flex-direction: row;
     
   }
   

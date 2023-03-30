@@ -37,7 +37,9 @@ $makkelijkste = mysqli_fetch_assoc($result);
 <body>
 
   <h1>Het recept dat het langste duurt om te maken</h1>
-  <?php echo($langsteDuur)?>
+  <?php echo $langsteDuur["title"]?> 
+  <?php echo $langsteDuur["beschrijving"]?> 
+  <?php echo $langsteDuur["Bereidingduur"]?>
 
 </body>
 

@@ -21,8 +21,10 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 ?>
 <?php include("header.php") ?>
 <?php include("nav.php") ?>
-    
-    
+
+
+
+
 </body>
 
 </html>
