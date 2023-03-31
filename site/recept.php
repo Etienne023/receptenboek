@@ -18,13 +18,13 @@ $recept = mysqli_fetch_assoc($result);
         <div class="benodigheden">
             <ol>
                 <h2>portie grootte</h2>
-                <li><?php echo $recept["Portie_groten"] ?></li>
+                <li><?php echo $recept["portie_groten"] ?></li>
                 <h2>bereidingsduur</h2>
-                <li><?php echo $recept["Bereidingduur"] ?></li>
+                <li><?php echo $recept["bereidingduur"] ?></li>
                 <h2>bereiding wijzen</h2>
-                <li><?php echo $recept["Bereiding_wijzen"] ?></li>
+                <li><?php echo $recept["bereiding_wijzen"] ?></li>
                 <h2>moeilijkheid graad</h2>
-                <li><?php echo $recept["Moeilijkheid_graad"] ?></li>
+                <li><?php echo $recept["moeilijkheid_graad"] ?></li>
                 <h2>menugang</h2>
                 <li><?php echo $recept["menugang"] ?></li>
             </ol>

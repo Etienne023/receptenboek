@@ -1,29 +1,45 @@
-table, th, td {
-    border:1px solid black;
-  }
-  table{
-    width: 100%;
-  }
-  .achtergrondd {
-    background-image: url('../images/a.jpg');
-    background-attachment: fixed;
-    background-size: 100% 100%;
+table,
+th,
+td {
+  border: 1px solid black;
 }
-.special img{
+
+table {
+  width: 100%;
+}
+
+.achtergrondd {
+  background-image: url('../images/a.jpg');
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.blok {
+  width: 220px;
+}
+
+.special img {
   height: 152px;
   width: 272px;
   display: flex;
   flex-direction: column;
 }
-.langsteduur{
-display: flex;
-align-items: center
-}
-.makkelijkst{
+
+.langsteduur {
   display: flex;
-  align-items: center
+  align-items: center;
 }
-.ingredienten{
-display: flex;
-align-items: center
+
+.makkelijkst {
+  display: flex;
+  align-items: center;
+}
+
+.ingredienten {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.special{
+  
 }
