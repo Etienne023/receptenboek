@@ -49,7 +49,7 @@ $ingredienten = mysqli_fetch_assoc($result);
         <div class="langsteduur">
             <div class="blok">
                 <h3 class="">Het recept dat het langste duurt om te maken</h3>
-            </div>
+            </div>  
             <div>
                 <?php echo $langsteDuur["title"] ?>
                 <img src="images/<?php echo $langsteDuur["foto"] ?>">
