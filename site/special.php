@@ -23,10 +23,6 @@ $ingredienten = mysqli_fetch_assoc($result);
 
 
 
-// var_dump($recept);
-// die;
-
-
 ?>
 
 <!DOCTYPE html>

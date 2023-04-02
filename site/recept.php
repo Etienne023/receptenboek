@@ -23,6 +23,8 @@ $recept = mysqli_fetch_assoc($result);
                 <li><?php echo $recept["bereidingduur"] ?></li>
                 <h2>bereiding wijzen</h2>
                 <li><?php echo $recept["bereiding_wijzen"] ?></li>
+                <h2>ingredienten</h2>
+                <li><?php echo $recept["ingredienten"] ?></li>
                 <h2>moeilijkheid graad</h2>
                 <li><?php echo $recept["moeilijkheid_graad"] ?></li>
                 <h2>menugang</h2>
