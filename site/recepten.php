@@ -45,7 +45,7 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
         <div class="plaatjes">
             <?php foreach ($all_recepten as $recept) : ?>
                 <a href="recept.php?id=<?php echo $recept['id'] ?>" class="recept">
-                    <img src="images/<?php echo $recept["foto"] ?>">
+                    <img src="images/<?php echo $recept["foto"] ?>"> 
                     <div class="tekt">
                         <h3><?php echo $recept["title"] ?></h3>
                     </div>

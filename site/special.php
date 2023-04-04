@@ -2,7 +2,7 @@
 require "database.php";
 
 
-$sql = "SELECT * FROM `recepten` WHERE Bereidingduur = (SELECT MAX(Bereidingduur) FROM recepten);";
+$sql = "SELECT * FROM `recepten` WHERE Bereidingduur = (SELECT MIN(Bereidingduur) FROM recepten);";
 
 $result = mysqli_query($conn, $sql);
 
